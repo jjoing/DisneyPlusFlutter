@@ -20,6 +20,16 @@ const List<String> sliderList = [
   'assets/images/beautyBeast_slider.png',
 ];
 
+const List<String> collection = [
+  'assets/images/korea_poster1.png',
+  'assets/images/korea_poster2.png',
+];
+
+const List<String> collection2 = [
+  'assets/images/new_poster1.png',
+  'assets/images/new_poster2.png',
+];
+
 class information {
   String imagepath;
   String keyword;

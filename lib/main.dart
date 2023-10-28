@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:disney_plus/MainScreen.dart';
 import 'package:disney_plus/Contents.dart';
+import 'package:disney_plus/SubScreen.dart';
 
 
 void main() {
@@ -35,7 +36,7 @@ class _disneyHomeState extends State<disneyHome> {
  //disneyHomeState({super.key});
 
  int _selectedIndex = 0;
- List _pages = <Widget>[Home(), Text('Search'), Text('Download'), Text('Profile')];
+ List _pages = <Widget>[Home(), Search(), Text('Download'), profile()];
 
   @override
   Widget build(BuildContext context) {
@@ -45,6 +46,7 @@ class _disneyHomeState extends State<disneyHome> {
          centerTitle: true,
          title: Image.asset('assets/images/disney_plus_logo.png', width: 200, height: 50, ),
          backgroundColor: Color(0xff2d3045),
+         elevation: 0.0,
        ),
        body: SafeArea(
          child: _pages[_selectedIndex],
