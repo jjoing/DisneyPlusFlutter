@@ -30,6 +30,21 @@ const List<String> collection2 = [
   'assets/images/new_poster2.png',
 ];
 
+const List<String> profileList = [
+  'assets/images/profile1.png',
+  'assets/images/profile2.png',
+  'assets/images/profile3.png',
+];
+
+const List<String> profileMenu = [
+  '관심 콘텐츠',
+  '앱 설정',
+  '계정',
+  '법률센터',
+  '고객센터',
+  '로그아웃',
+];
+
 class information {
   String imagepath;
   String keyword;

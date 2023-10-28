@@ -86,6 +86,9 @@ flutter:
     - assets/images/korea_poster3.png
     - assets/images/new_poster1.png
     - assets/images/new_poster2.png
+    - assets/images/profile1.png
+    - assets/images/profile2.png
+    - assets/images/profile3.png
 
 
   #   - images/a_dot_burr.jpeg
