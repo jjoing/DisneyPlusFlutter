@@ -46,9 +46,9 @@ const List<String> profileMenu = [
 ];
 
 class information {
-  String imagepath;
-  String keyword;
-  String describe;
+  final String imagepath;
+  final String keyword;
+  final String describe;
   information(this.imagepath, this.keyword, this.describe);
 
   information.fromMap(Map)
@@ -88,6 +88,14 @@ information new_poster3 = information.fromMap({
   'keyword' : '2023 1시간 41분 로맨스,가족,코미디,판타지, 애니메이션',
   'describe' : '4원소가 사는 엘리멘트 시티', });
 
+final List<dynamic> Movie = [
+  korea_poster1,
+  korea_poster2,
+  korea_poster3,
+  new_poster1,
+  new_poster2,
+  new_poster3,
+];
 
 final List<String> korPoster = [
   korea_poster1.imagepath,

@@ -33,65 +33,65 @@ class Search extends StatelessWidget {
                 SizedBox(width: 20),
                 Text('검색', style: TextStyle(fontSize: 20),
             )])),
-            SizedBox(height:30),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  margin: EdgeInsets.only(left: 25),
-                  height: 110,
-                  width: 110,
-                  decoration: BoxDecoration(
-                    color: Color(0xff19132f).withOpacity(0.8),
-                    borderRadius: BorderRadius.circular(5),
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      SizedBox(width: 10),
-                      Icon(Icons.star, color: Colors.white, size: 30.0),
-                      SizedBox(width: 10),
-                      Text('오리지널', style: TextStyle(fontSize: 15, color: Colors.white.withOpacity(0.8))),
-                ])),
-                Container(
-                  height: 110,
-                  width: 110,
-                  decoration: BoxDecoration(
-                    color: Color(0xff19132f).withOpacity(0.8),
-                    borderRadius: BorderRadius.circular(5),
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      SizedBox(width: 10),
-                      Icon(Icons.movie, color: Colors.white, size: 30.0),
-                      SizedBox(width: 10),
-                      Text('영화', style: TextStyle(fontSize: 15, color: Colors.white.withOpacity(0.8))),
-                ])),
-                Container(
-                  margin: EdgeInsets.only(right: 25),
-                  height: 110,
-                  width: 110,
-                  decoration: BoxDecoration(
-                    color: Color(0xff19132f).withOpacity(0.8),
-                    borderRadius: BorderRadius.circular(5),
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      SizedBox(width: 10),
-                      Icon(Icons.live_tv, color: Colors.white, size: 30.0),
-                      SizedBox(width: 10),
-                      Text('시리즈', style: TextStyle(fontSize: 15, color: Colors.white.withOpacity(0.8))),
-                ])),
-            ]),
-            SizedBox(height: 25),
-            Container(
-              margin: const EdgeInsets.only(left: 30.0, top: 10.0,),
-              alignment: Alignment.centerLeft,
-              child: Text("컬렉션 둘러보기", style: TextStyle(color: Colors.white.withOpacity(0.8))),
-            ),
-            Container(child: CollectionList(collection, collection2)),
+          SizedBox(height:30),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Container(
+                margin: EdgeInsets.only(left: 25),
+                height: 110,
+                width: 110,
+                decoration: BoxDecoration(
+                  color: Color(0xff19132f).withOpacity(0.8),
+                  borderRadius: BorderRadius.circular(5),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SizedBox(width: 10),
+                    Icon(Icons.star, color: Colors.white, size: 30.0),
+                    SizedBox(width: 10),
+                    Text('오리지널', style: TextStyle(fontSize: 15, color: Colors.white.withOpacity(0.8))),
+              ])),
+              Container(
+                height: 110,
+                width: 110,
+                decoration: BoxDecoration(
+                  color: Color(0xff19132f).withOpacity(0.8),
+                  borderRadius: BorderRadius.circular(5),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SizedBox(width: 10),
+                    Icon(Icons.movie, color: Colors.white, size: 30.0),
+                    SizedBox(width: 10),
+                    Text('영화', style: TextStyle(fontSize: 15, color: Colors.white.withOpacity(0.8))),
+              ])),
+              Container(
+                margin: EdgeInsets.only(right: 25),
+                height: 110,
+                width: 110,
+                decoration: BoxDecoration(
+                  color: Color(0xff19132f).withOpacity(0.8),
+                  borderRadius: BorderRadius.circular(5),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SizedBox(width: 10),
+                    Icon(Icons.live_tv, color: Colors.white, size: 30.0),
+                    SizedBox(width: 10),
+                    Text('시리즈', style: TextStyle(fontSize: 15, color: Colors.white.withOpacity(0.8))),
+              ])),
+          ]),
+          SizedBox(height: 25),
+          Container(
+            margin: const EdgeInsets.only(left: 30.0, top: 10.0,),
+            alignment: Alignment.centerLeft,
+            child: Text("컬렉션 둘러보기", style: TextStyle(color: Colors.white.withOpacity(0.8))),
+          ),
+          Container(child: CollectionList(collection, collection2)),
     ])));
 }}
 
