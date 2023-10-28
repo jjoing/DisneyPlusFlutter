@@ -24,7 +24,7 @@ Container PosterList(List imagePath){
                 onPressed: () => {
                   Navigator.push(context,
                     MaterialPageRoute(builder: (context) {
-                      return movieInfo(imagePath: '${imagePath[index]}');
+                      return movieInfo(imagePath: '${imagePath[index]}', index: index);
                   }))
                 },
                 icon: Expanded(child: Image.asset('${imagePath[index]}'))

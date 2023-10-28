@@ -17,7 +17,7 @@ class SplashScreen extends StatelessWidget {
     return MaterialApp(
         title: 'Clean Code',
         home: AnimatedSplashScreen(
-            duration: 5000,
+            duration: 4500,
             splash: Image.asset('assets/images/disney_plus_start.gif'),
             splashIconSize: double.maxFinite,
             nextScreen: disneyHome(),
