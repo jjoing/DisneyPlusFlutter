@@ -3,7 +3,6 @@ import 'package:disney_plus/Contents.dart';
 import 'package:disney_plus/MainScreen.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/url_launcher_string.dart';
-import 'dart:io';
 
 
 class movieInfo extends StatelessWidget {
@@ -59,21 +58,23 @@ class movieInfo extends StatelessWidget {
                         ),
                         Text('관심 콘텐츠', style: TextStyle(fontSize: 13, color: Colors.white),)
                       ]),
-                      SizedBox(width: 25),
+                      SizedBox(width: 35),
                       Column(children: [IconButton(
                         icon: Icon(Icons.theaters, color: Colors.white),
-                        onPressed: () {//async{
-                          //final url=Uri.parse('https://www.youtube.com/watch?v=BOqFRHCrN-k');
-                          //await
+                        onPressed: () {
                           launchUrlString('https://www.youtube.com/watch?v=BOqFRHCrN-k');
                         },
                       ),
                         Text('예고편', style: TextStyle(fontSize: 13, color: Colors.white),)
                       ]),
-                      SizedBox(width: 25),
+                      SizedBox(width: 35),
                       Column(children: [IconButton(
                         icon: Icon(Icons.security_update_good, color: Colors.white),
-                        onPressed: () => {},
+                        onPressed: () async{
+                          final List<String> downloadList = [
+
+                          ];
+                        },
                       ),
                         Text('저장', style: TextStyle(fontSize: 13, color: Colors.white),)
                       ])

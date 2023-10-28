@@ -3,6 +3,7 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:disney_plus/MainScreen.dart';
 import 'package:disney_plus/Contents.dart';
 import 'package:disney_plus/SubScreen.dart';
+import 'package:disney_plus/download.dart';
 
 
 void main() {
@@ -36,7 +37,7 @@ class _disneyHomeState extends State<disneyHome> {
  //disneyHomeState({super.key});
 
  int _selectedIndex = 0;
- List _pages = <Widget>[Home(), Search(), Text('Download'), profile()];
+ List _pages = <Widget>[Home(), Search(), download(), profile()];
 
   @override
   Widget build(BuildContext context) {
