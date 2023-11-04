@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:disney_plus/PosterList.dart';
-import 'package:disney_plus/Contents.dart';
-import 'package:disney_plus/movieInfo.dart';
 
 Container downloadList(List imagePath){
   return Container(

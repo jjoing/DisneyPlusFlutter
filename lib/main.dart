@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:disney_plus/MainScreen.dart';
-import 'package:disney_plus/Contents.dart';
 import 'package:disney_plus/SubScreen.dart';
 import 'package:disney_plus/download.dart';
 

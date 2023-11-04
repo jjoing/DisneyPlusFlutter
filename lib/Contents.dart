@@ -1,6 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:disney_plus/PosterList.dart';
-
 const List<String> Categorie = [
   'assets/images/disney_white_logo.png',
   'assets/images/pixar_logo.png',
